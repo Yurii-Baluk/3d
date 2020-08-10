@@ -228,7 +228,7 @@ var CornerProperties = function(corner, gui) {
     }
 
     function onChangeX() {
-        scope.corner.x = BP3DJS.Dimensioning.cmFromMeasureRaw(scope.x);
+        scope.corner.x = BP3DJS.Dimensioning.cmFromMeasureRaw(scope.x); 
     }
 
     function onChangeY() {
