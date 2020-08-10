@@ -2,4 +2,5 @@
 deployment:
 tasks:
 - export DEPLOYPATH=/home1/awboddos/repositories/3d
+- /bin/cp -R /home1/awboddos/
 - /bin/cp index.html $DEPLOYPATH
