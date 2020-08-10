@@ -260,7 +260,7 @@ var RoomProperties = function(room, gui) {
     return this.f;
 }
 
-var Wall2DProperties = function(wall2d, gui) {
+var Wall2DProperties = function(wall2d, gui) {  
     var scope = this;
     this.gui = gui;
     this.wall2d = wall2d;
