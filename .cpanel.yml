@@ -1,6 +1,5 @@
----
 deployment:
-tasks:
-- export DEPLOYPATH=/home1/awboddos/repositories/3d
-- /bin/cp -R /home1/awboddos/public_html/floor $DEPLOYPATH
-- /bin/cp index.html $DEPLOYPATH
+  tasks:
+    - export REPOPATH=/home1/awboddos/repositories/3d
+    - export SITEPATH=/home1/awboddos/public_html/floor
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
