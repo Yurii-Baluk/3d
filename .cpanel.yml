@@ -1,6 +1,5 @@
 ---
 deployment:
 tasks:
-- export DEPLOYPATH=/home/awboddos/home1/repositories/3d
+- export DEPLOYPATH=/home1/awboddos/repositories/3d
 - /bin/cp index.html $DEPLOYPATH
-- /bin/cp style.css $DEPLOYPATH
