@@ -2,4 +2,4 @@
 deployment:
 tasks:
 - export DEPLOYPATH=/home1/awboddos/public_html/floor
-- cp index.html $DEPLOYPATH
+- /bin/cp index.html $DEPLOYPATH
