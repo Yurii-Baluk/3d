@@ -1,5 +1,5 @@
 ---
 deployment:
 tasks:
-- export DEPLOYPATH=/home1/awboddos/public_html/floor
-- /bin/cp -R * $DEPLOYPATH 
+ - export DEPLOYPATH=/home1/awboddos/repositories/3d
+ - /bin/cp index.html $DEPLOYPATH  
