@@ -48,7 +48,7 @@ $(document).ready(function() {
       "name" : "Chair",
       "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
       "model" : "models/js/gus-churchchair-whiteoak.js",
-      "type" : "1"
+      "type" : "1" 
     }, 
     {
       "name" : "car",
