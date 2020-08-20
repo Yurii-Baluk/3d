@@ -51,6 +51,12 @@ $(document).ready(function() {
       "type" : "1"
     }, 
     {
+      "name" : "car",
+      "image" : "models/thumbnails/mustang.png",
+      "model" : "models/js/1967-shelby-ford-mustang.json",
+      "type" : "1"
+    }, 
+    {
       "name" : "Red Chair",
       "image" : "models/thumbnails/thumbnail_tn-orange.png",
       "model" : "models/js/ik-ekero-orange_baked.js",
@@ -185,7 +191,7 @@ $(document).ready(function() {
    /*     
    {
       "name" : "",
-      "image" : "",
+      "image" : "", 
       "model" : "",
       "type" : "1"
     }, 
