@@ -2,6 +2,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/awboddos/public_html/floor
-    - /bin/cp Works-files/index.html $DEPLOYPATH
-    - /bin/cp Works-files/style.css $DEPLOYPATH
+    - export DEPLOYPATH=/home1/awboddos/public_html/floor/Works-files
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp css/style.css $DEPLOYPATH
