@@ -1,7 +1,7 @@
 // add items to the "Add Items" tab
 
 $(document).ready(function() {
-  var items = [
+  var items = [ 
    {
       "name" : "Closed Door",
       "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
@@ -11,13 +11,19 @@ $(document).ready(function() {
     {
       "name" : "test",
       "image" : "models/thumbnails/thumbnail_Closed_Door_preview.jpg",
-      "model" : "models/js/untitled.json",
+      "model" : "models/js/test.json",
       "type" : "7"
     },
     {
       "name" : "test2",
       "image" : "models/thumbnails/thumbnail_Closed_Door_preview.jpg",
-      "model" : "models/js/test.json",
+      "model" : "models/js/untitled.json",
+      "type" : "7"
+    },
+    {
+      "name" : "test3",
+      "image" : "models/thumbnails/thumbnail_Closed_Door_preview.jpg",
+      "model" : "models/js/www.json",
       "type" : "7"
     },
     {
