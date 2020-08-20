@@ -1,4 +1,4 @@
-// add items to the "Add Items" tab
+// add items to the "Add Items" tab TEST  TEST  TEST  TEST  TEST  TEST  TEST  TEST 
 
 $(document).ready(function() {
   var items = [ 
