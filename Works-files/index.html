@@ -238,6 +238,26 @@
         <!-- End Right Column -->
       </div>
     </div>
+  <script>
+    import GLTFLoader from 'three-gltf-loader';
 
+    const loader = new GLTFLoader();
+    loader.load(
+        'path/to/your/file.gltf',
+        ( gltf ) => {
+            // called when the resource is loaded
+            scene.add( gltf.scene );
+        },
+        ( xhr ) => {
+            // called while loading is progressing
+            console.log( `${( xhr.loaded / xhr.total * 100 )}% loaded` );
+        },
+        ( error ) => {
+            // called when loading has errors
+            console.error( 'An error happened', error );
+        },
+    );
+
+  </script>
   </body>
 </html>
