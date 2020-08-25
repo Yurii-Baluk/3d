@@ -7,6 +7,3 @@ deployment:
     - /bin/cp /js/items.js $DEPLOYPATH
     - /bin/cp ../index.html $DEPLOYPATH
     - /bin/cp Works-files/css/style.css $DEPLOYPATH
-
-    - export DEPLOYPATH=/home1/awboddos/public_html/floor/Works-files/js/
-    - /bin/cp items.js $DEPLOYPATH
