@@ -10,7 +10,7 @@
 		"colors"        : 0,
 		"uvs"           : [1310],
 		"materials"     : 1,
-		"morphTargets"  : 0,
+		"morphTargets"  : 0, 
 		"bones"         : 0
 	},
 
