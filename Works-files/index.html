@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
   <head>
     <title>Blueprint 3D - test</title>
@@ -238,13 +238,16 @@
         <!-- End Right Column -->
       </div>
     </div>
-  <script>
-    import GLTFLoader from 'three-gltf-loader';
+  <script type="module">
+    import { GLTFLoader } from '../GLTFLoader.js';
 
     const loader = new GLTFLoader();
+    var itemsDiv = $("#items-wrapper");
+    
     loader.load(
-        'path/to/your/file.gltf',
+        'models/gltf/bathroomCabinet.glb',
         ( gltf ) => {
+          var scene = gltf.scene;
             // called when the resource is loaded
             scene.add( gltf.scene );
         },
