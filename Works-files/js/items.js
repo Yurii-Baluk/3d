@@ -1,4 +1,4 @@
-// add items to the "Add Items" tab
+// add items to the "Add Items" tab TEST  TEST  TEST  TEST  TEST  TEST  TEST  TEST 
 
 $(document).ready(function() {
   var items = [ 
@@ -48,6 +48,12 @@ $(document).ready(function() {
       "name" : "Chair",
       "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
       "model" : "models/js/gus-churchchair-whiteoak.js",
+      "type" : "1" 
+    }, 
+    {
+      "name" : "car",
+      "image" : "models/thumbnails/mustang.png",
+      "model" : "models/js/1967-shelby-ford-mustang.json",
       "type" : "1"
     }, 
     {
@@ -185,7 +191,7 @@ $(document).ready(function() {
    /*     
    {
       "name" : "",
-      "image" : "",
+      "image" : "", 
       "model" : "",
       "type" : "1"
     }, 
