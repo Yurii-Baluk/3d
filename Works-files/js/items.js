@@ -18,13 +18,13 @@ $(document).ready(function() {
       "name" : "test2",
       "image" : "models/thumbnails/thumbnail_Closed_Door_preview.jpg",
       "model" : "models/js/untitled.json",
-      "type" : "7"
+      "type" : "1"
     },
     {
       "name" : "test3",
       "image" : "models/thumbnails/thumbnail_Closed_Door_preview.jpg",
       "model" : "models/js/www.json",
-      "type" : "7"
+      "type" : "1"
     },
     {
       "name" : "Closed Custom Door",
