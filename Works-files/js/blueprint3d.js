@@ -690,7 +690,7 @@ var BP3D;
     })(Items = BP3D.Items || (BP3D.Items = {}));
 })(BP3D || (BP3D = {}));
 /// <reference path="../../lib/jQuery.d.ts" />
-/// <reference path="../core/utils.ts" />
+/// <reference path="../core/utils.ts" /> 
 /// <reference path="floorplan.ts" />
 /// <reference path="wall.ts" />
 var BP3D;
@@ -4565,7 +4565,6 @@ var BP3D;
             var canvas;
             var controller;
             var floorplan;
-            //var canvas;
             //var canvasElement = canvasElement;
             var needsUpdate = false;
             var lastRender = Date.now();

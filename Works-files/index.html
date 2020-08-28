@@ -15,9 +15,10 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
 
-    <!--<script src="js/items.js"></script>-->
+    <script src="js/items.js"></script>
 
-    <script src="js/items_gltf.js"></script>
+    <!--<script src="js/items_gltf.js"></script>-->
+
     <script src="js/example.js"></script>
 
   </head>
@@ -241,27 +242,11 @@
       </div>
     </div>
   <script type="module">
-    import { GLTFLoader } from '../GLTFLoader.js';
+        // import * as THREE from "../node_modules/three/build/three.module.js"
 
-    const loader = new GLTFLoader();
-    var itemsDiv = $("#items-wrapper");
-    
-    loader.load(
-        'models/gltf/bathroomCabinet.glb',
-        ( gltf ) => {
-          var scene = gltf.scene;
-            // called when the resource is loaded
-            scene.add( gltf.scene );
-        },
-        ( xhr ) => {
-            // called while loading is progressing
-            console.log( `${( xhr.loaded / xhr.total * 100 )}% loaded` );
-        },
-        ( error ) => {
-            // called when loading has errors
-            console.error( 'An error happened', error );
-        },
-    );
+        // import Stats from '../node_modules/three/examples/jsm/libs/stats.module.js';
+
+        // import { STLLoader } from '../node_modules/three/examples/jsm/loaders/STLLoader.js';
 
   </script>
   </body>

@@ -1,4 +1,4 @@
-// add items to the "Add Items" tab TEST  TEST  TEST  TEST  TEST  TEST  TEST  TEST 
+// add items to the "Add Items" tab 
 
 $(document).ready(function() {
   var items = [ 
@@ -26,6 +26,15 @@ $(document).ready(function() {
       "model" : "models/js/www.json",
       "type" : "7"
     },
+
+    {
+      "name" : "test stl",
+      "image" : "models/thumbnails/thumbnail_Closed_Door_preview.jpg",
+      "model" : "models/stl/test.stl",
+      "type" : "7"
+    },
+
+
     {
       "name" : "Closed Custom Door",
       "image" : "models/thumbnails/thumbnail_Closed_Door_preview.jpg",
