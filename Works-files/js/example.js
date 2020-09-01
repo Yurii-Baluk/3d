@@ -3,6 +3,8 @@
  * Camera Buttons
  */
 
+//import { STLLoader } from '../../node_modules/three/examples/jsm/loaders/STLLoader.js';
+
 var CameraButtons = function(blueprint3d) {
 
   var orbitControls = blueprint3d.three.controls;
@@ -215,6 +217,18 @@ var ItemMenu = function(blueprint3d) {
         selectedItem = null;
         menu.hide();
     }
+    //var material = new THREE.MeshPhongMaterial( { color: 0xAAAAAA, specular: 0x111111, shininess: 200 } );
+    // var loader = new STLLoader();
+    // loader.load( 'test.STL', function ( geometry ) {
+    //   var mesh = new THREE.Mesh( geometry, material );
+
+    //   mesh.position.set( 0, - 0.0, - 0.0 );
+    //   //mesh.rotation.set( - Math.PI / 2, 0, 0 );
+    //   mesh.scale.set( 0.0001, 0.0001, 0.0001 );
+
+    // blueprint3d.model.scene.add( mesh );
+
+  //} );
 
     /**
      * Загружаем геометрию по адресу из метаданных и устанавливаем её в переданный объект.

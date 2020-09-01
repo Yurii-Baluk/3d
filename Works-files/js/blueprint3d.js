@@ -2425,7 +2425,7 @@ var BP3D;
                 this.scene = new THREE.Scene();
                 // init item loader
                 this.loader = new THREE.JSONLoader();
-                this.loaderSTL = new STLLoader();
+                //this.loaderSTL = new STLLoader();
                 this.loader.crossOrigin = "";
             }
             /** Adds a non-item, basically a mesh, to the scene.
@@ -2508,6 +2508,20 @@ var BP3D;
                 this.loader.load(fileName, loaderCallback, undefined // TODO_Ekki 
                 );
                 //this.loaderSTL.load(fileName, loaderCallback, undefined );
+                var material = new THREE.MeshPhongMaterial( { color: 0xAAAAAA, specular: 0x111111, shininess: 200 } );
+                //var loader = new STLLoader();
+                this.loader.load( 'test.json', function ( geometry ) {
+                    var mesh = new THREE.Mesh( geometry, material );
+
+                    mesh.position.set( 0, - 0.0, - 0.0 );
+                    //mesh.rotation.set( - Math.PI / 2, 0, 0 );
+                    mesh.scale.set( 0.0001, 0.0001, 0.0001 );
+
+                    //mesh.castShadow = true;
+                //  mesh.receiveShadow = true;
+
+                blueprint3d.model.scene.add( mesh );
+                } );
             };
             return Scene;
         })();
