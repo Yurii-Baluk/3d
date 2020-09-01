@@ -13,7 +13,7 @@ var CameraButtons = function(blueprint3d) {
     UP: 1,
     DOWN: 2,
     LEFT: 3,
-    RIGHT: 4
+    RIGHT: 4 
   }
 
   function init() {
@@ -381,7 +381,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   var ACTIVE_CLASS = "active";
 
   var tabs = {
-    "FLOORPLAN" : $("#floorplan_tab"),
+    "FLOORPLAN test" : $("#floorplan_tab"),
     "SHOP" : $("#items_tab"),
     "DESIGN" : $("#design_tab")
   }
@@ -571,7 +571,7 @@ var TextureSelector = function (blueprint3d, sideMenu) {
   }
 
   init();
-}
+} 
 
 /*
  * Floorplanner controls

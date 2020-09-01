@@ -2425,6 +2425,7 @@ var BP3D;
                 this.scene = new THREE.Scene();
                 // init item loader
                 this.loader = new THREE.JSONLoader();
+                this.loaderSTL = new STLLoader();
                 this.loader.crossOrigin = "";
             }
             /** Adds a non-item, basically a mesh, to the scene.
@@ -2506,6 +2507,7 @@ var BP3D;
                 this.itemLoadingCallbacks.fire();
                 this.loader.load(fileName, loaderCallback, undefined // TODO_Ekki 
                 );
+                //this.loaderSTL.load(fileName, loaderCallback, undefined );
             };
             return Scene;
         })();
@@ -4580,6 +4582,7 @@ var BP3D;
             this.wallClicked = $.Callbacks(); // wall
             this.floorClicked = $.Callbacks(); // floor
             this.nothingClicked = $.Callbacks();
+            
             function init() {
                 THREE.ImageUtils.crossOrigin = "";
                 domElement = scope.element.get(0); // Container
@@ -4851,6 +4854,7 @@ var BP3D;
             function Version() {
             }
             /** The informal version. */
+
             Version.getInformalVersion = function () {
                 return "1.0 Beta 1";
             };
@@ -4866,3 +4870,5 @@ var BP3D;
 console.log("Blueprint3D " + BP3D.Core.Version.getInformalVersion()
     + " (" + BP3D.Core.Version.getTechnicalVersion() + ")");
 //# sourceMappingURL=blueprint3d.js.map
+
+//export let testMod = {"test":2, "renders":3};
